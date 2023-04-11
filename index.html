@@ -7,10 +7,12 @@
         <title>Inicio de Proyecto</title>
     </head>
     <body>
-        <header>Encabezado</header>
+        <header></header>
         <nav>
             <a href="https://www.google.com/?hl=es">Google</a>
+            <br>
             <a href="#Textolargo">Link a Texto Largo</a>
+            <br>
             <a href="./pages/ejercicio.html">Ejercicio</a>
         </nav>
         <section>
@@ -20,10 +22,58 @@
         </section>
         <footer></footer>
 
-        <h1>Titulo 1</h1>
-        <p id="Textolargo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sapiente accusamus delectus pariatur cupiditate? Illo quasi, minima dicta molestias sapiente dolores quos maxime iste perferendis suscipit nesciunt aspernatur reprehenderit autem.
-            <br>
-            Hola a todos
+        <h1>Mi Pagina Web</h1>
+        <p id="Textolargo">Hola a todos esta es mi primer pagina web asi que esta sin color y desordenada, pero a cambio hay una foto de un gatito y un video a continuacion.
         </p>
+        <img src="./images/Gatito.jpg" alt="Un gatito triste"width="150" height="150"aline="left"/>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_9ZKOLVEjJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        <button>Hacer Click!</button>
+        <form action="" method="">
+            <fieldset>
+                <legend>Encuesta de Satisfaccion</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre"/>
+            <br>
+
+            <label for="edad">Edad: </label>
+            <input type="text" name="edad" id="edad" size="2"/>
+            <br>
+
+            <label for="telefono">Telefono: </label>
+            <input type="number" name="telefono" id="telefono" />
+            <br>
+
+            <label for="email">Correo Electronico: </label>
+            <input type="email" name="email" id="email"/>
+            <br>
+
+            <label for="comentarios">Comentarios: </label>
+            <input type="text" name="comentarios" id="comentarios"/>
+            <br>
+
+            <label for="">Estado de animo:</label>
+            <input type="radio" name="estado" value="a">Feliz
+            <input type="radio" name="estado" value="i">Triste
+            <br>
+
+            <div>Acepta terminos y condiciones</div>
+            <input type="checkbox" name="acepta" value="1"/>
+            <br>
+
+            <label for="">Estado de Satisfaccion:</label>
+            <select name="Satisfaccion">
+                <option value="E">Excelente</option>
+                <option value="B">Bien</option>
+                <option value="M">Mal</option>
+            </select>
+            <br>
+            <br>
+
+            <input type="submit"/>
+            <input type="reset" value="Borrar Campos"/>
+        </fieldset>
+        </form>
     </body>
 </html>
