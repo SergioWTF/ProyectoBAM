@@ -5,12 +5,12 @@
 }
 
 body{
-    background: #292929;
+    background: #00ffff;
     font-family:'calibri';
 }
 
 header{
-    background: #03A9F4;
+    background: #D7BDE2;
     width: 100%;
     clear: both;
     content: '';
@@ -20,9 +20,9 @@ header{
     width: 900px;
     margin: 0 auto;
 }
-img{
-    width: 120px;
-    height: 50px;
+header img{
+    width: 150px;
+    height: 150px;
     float: left;
     padding: 8px;
 }
@@ -33,8 +33,8 @@ nav{
 
 nav ul li{
     list-style: none;
-    margin-left: 25px;
-    padding: 25px 0;
+    margin-left: 100px;
+    padding: 10px 0;
     float: left;
     position: relative;
 }
@@ -57,4 +57,18 @@ nav ul li a::before{
 
 nav ul li a:hover::before{
     width: 100%;
+}
+
+section{
+    text-align: center;
+}
+
+#trucos {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#introduccion {
+    font-weight: bold;
+    font-size: x-large;
 }
