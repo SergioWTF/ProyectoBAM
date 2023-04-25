@@ -5,12 +5,12 @@
 }
 
 body{
-    background: #00ffff;
+    background: #D4AC0D;
     font-family:'calibri';
 }
 
 header{
-    background: #D7BDE2;
+    background: #7B241C;
     width: 100%;
     clear: both;
     content: '';
@@ -18,9 +18,9 @@ header{
 }
 .menu{
     width: 900px;
-    margin: 0 auto;
+    margin:auto;
 }
-header img{
+body header div img{
     width: 150px;
     height: 150px;
     float: left;
@@ -33,7 +33,7 @@ nav{
 
 nav ul li{
     list-style: none;
-    margin-left: 100px;
+    margin-left: 75px;
     padding: 10px 0;
     float: left;
     position: relative;
@@ -41,8 +41,9 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #444;
+    color: #f9fd01;
     font-weight: bold;
+    font-size: x-large;
 }
 
 nav ul li a::before{
@@ -59,16 +60,19 @@ nav ul li a:hover::before{
     width: 100%;
 }
 
-section{
+p{
+    font-size: x-large;
+}
+
+h1{
     text-align: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 400%;
 }
 
-#trucos {
-    font-weight: bold;
-    font-size: x-large;
-}
-
-#introduccion {
-    font-weight: bold;
-    font-size: x-large;
+section article img{
+    margin-left: 800px;
+    margin-right: 800px;
+    width: 300px;
 }
