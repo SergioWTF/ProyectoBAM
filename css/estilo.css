@@ -15,11 +15,13 @@ header{
     clear: both;
     content: '';
     display: table;
-}
+    }
+
 .menu{
     width: 900px;
     margin:auto;
 }
+
 body header div img{
     width: 150px;
     height: 150px;
@@ -71,8 +73,17 @@ h1{
     font-size: 400%;
 }
 
-section article img{
+
+section img{
     margin-left: 800px;
     margin-right: 800px;
     width: 300px;
+}
+
+.flex-container{
+    justify-content: center;
+}
+
+iframe{
+    text-align: center;
 }
