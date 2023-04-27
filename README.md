@@ -1,4 +1,4 @@
 # ProyectoBAM
 
 Descripcion del proyecto: 
-Tematica:Superheroe Flash de DC Comics.
+Tematica: Superheroe Flash de DC Comics.
