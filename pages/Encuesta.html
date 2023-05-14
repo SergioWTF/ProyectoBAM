@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img id="Logo" src="../images/Logo Flash.png" alt="Logo de flash"/>
+            <nav>
+                <ul>
+                <li>
+                    <a href="Pagina.html">Inicio</a></li>
+                <li>
+                    <a href="#comics">Comics</a></li>
+                <li>
+                    <a href="#versiones">Versiones</a></li>
+                <li>
+                    <a href="Personajes.html">Personajes</a>
+                </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form action="" method="">
+        <fieldset>
+            <legend>Encuesta de Satisfaccion</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre"/>
+            <br>
+
+            <label for="edad">Edad: </label>
+            <input type="text" name="edad" id="edad" size="2"/>
+            <br>
+
+            <label for="telefono">Numero de Telefono: </label>
+            <input type="number" name="telefono" id="telefono" />
+            <br>
+
+            <label for="email">Correo Electronico: </label>
+            <input type="email" name="email" id="email"/>
+            <br>
+
+            <label for="comentarios">Comentarios: </label>
+            <input type="text" name="comentarios" id="comentarios"/>
+            <br>
+
+            <label for="">Estado de animo:</label>
+            <input type="radio" name="estado" value="a">Feliz
+            <input type="radio" name="estado" value="i">Triste
+            <br>
+
+            <div>Acepta terminos y condiciones</div>
+                <input type="checkbox" name="acepta" value="1"/>
+                <br>
+            </div>
+
+            <label for="">Estado de Satisfaccion:</label>
+                <select name="Satisfaccion">
+                    <option value="E">Excelente</option>
+                    <option value="B">Bien</option>
+                    <option value="M">Mal</option>
+                </select>
+                <br>
+                <br>
+
+            <input type="submit"/>
+            <input type="reset" value="Borrar Campos"/>
+        </fieldset>
+    </form>
+</body>
+</html>
