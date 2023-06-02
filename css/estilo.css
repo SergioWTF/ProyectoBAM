@@ -27,6 +27,7 @@ body header div img{
 nav{
     display: flex;
     justify-content: center;
+    flex-direction:row-reverse;
     align-items:center;
 }
 
@@ -57,10 +58,8 @@ nav ul li a{
     justify-content: center;
 }
 
-.personajes ul li img{
-    display: flex;
-    align-items: center;
-    float:left;
+.personajes img{
+    text-align: left;
     width: 200px;
 }
 
@@ -94,6 +93,12 @@ iframe{
         width: auto;
     }
     p{
+        width: auto;
+    }
+    h1{
+        width: auto;
+    }
+    div{
         width: auto;
     }
 }
@@ -148,4 +153,26 @@ iframe{
 
 #content {
     display: none;
+}
+
+footer{
+    background: #7B241C;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-weight: bold;
+}
+
+footer img{
+    width: 150px;
+}
+
+#botonInicio{
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 80px;
+    transition: all 1s;
 }

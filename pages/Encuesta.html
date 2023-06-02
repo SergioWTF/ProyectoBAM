@@ -14,7 +14,7 @@
             <nav>
                 <ul>
                 <li>
-                    <a href="Pagina.html">Inicio</a></li>
+                    <a href="../index.html">Inicio</a></li>
                 <li>
                     <a href="#comics">Comics</a></li>
                 <li>
@@ -28,53 +28,44 @@
     </header>
     <form action="" method="">
         <fieldset>
-            <legend>Encuesta de Satisfaccion</legend>
+            <legend>Carta Para Flash</legend>
             <label for="nombre">Nombre: </label>
-            <input type="text" name="nombre" id="nombre"/>
+                <input type="text" placeholder="Escribi tu nombre" name="nombre" id="nombre"/>
             <br>
 
             <label for="edad">Edad: </label>
-            <input type="text" name="edad" id="edad" size="2"/>
+                <input type="text" name="edad" id="edad" maxlength="2"/>
             <br>
 
             <label for="telefono">Numero de Telefono: </label>
-            <input type="number" name="telefono" id="telefono" />
+                <input type="number" name="telefono" id="telefono" />
             <br>
 
             <label for="email">Correo Electronico: </label>
-            <input type="email" name="email" id="email"/>
+                <input type="email" name="email" id="email"/>
             <br>
 
-            <label for="comentarios">Comentarios: </label>
-            <input type="text" name="comentarios" id="comentarios"/>
+            <label for="pais">Pais: </label>
+            <select name="" id="">
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Peru">Peru</option>
+                <option value="Mexico">Mexico</option>
+            </select>
             <br>
 
-            <label for="">Estado de animo:</label>
-            <input type="radio" name="estado" value="a">Feliz
-            <input type="radio" name="estado" value="i">Triste
+            <label for="comentarios">Mensaje: </label>
+                <input type="text" name="comentarios" id="comentarios"/>
             <br>
 
-            <div>Acepta terminos y condiciones</div>
-                <input type="checkbox" name="acepta" value="1"/>
-                <br>
-            </div>
-
-            <label for="">Estado de Satisfaccion:</label>
-                <select name="Satisfaccion">
-                    <option value="E">Excelente</option>
-                    <option value="B">Bien</option>
-                    <option value="M">Mal</option>
-                </select>
-                <br>
-                <br>
+                <div>Acepta terminos y condiciones</div>
+                    <input type="checkbox" name="acepta" value="1"/>
+                    <br>
+                </div>
 
             <input type="submit"/>
             <input type="reset" value="Borrar Campos"/>
         </fieldset>
     </form>
-    <div id="gif-container">
-        <img id="gif" src="../images/Flash.gif" alt="Flash">
-    </div>
-    <script src="../scripts/Animacion.js"></script>
 </body>
 </html>
