@@ -9,24 +9,20 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-            <img id="Logo" src="../images/Logo Flash.png" alt="Logo de flash"/>
-            <nav>
-                <ul>
-                <li>
-                    <a href="../index.html">Inicio</a></li>
-                <li>
-                    <a href="#comics">Comics</a></li>
-                <li>
-                    <a href="#versiones">Versiones</a></li>
-                <li>
-                    <a href="Personajes.html">Personajes</a>
-                </li>
-                </ul>
+        <img class="logo" src="../images/Logo Flash.png" alt="Logo de flash"/>
+        <button id="abrir" class="abrir-menu"><img id="logo" src="../images/lista.png" alt="Lista"/></button>
+        <nav class="nav" id="nav">
+            <button id="cerrar" class="cerrar-menu"><img id="logo" src="../images/x.png" alt="X"/></button>
+            <ul class="lista">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#comics">Comics</a></li>
+                <li><a href="#versiones">Versiones</a></li>
+                <li><a href="Personajes.html">Personajes</a></li>
+            </ul>
             </nav>
         </div>
     </header>
-    <form action="" method="">
+    <form action="" method="" id="formulario">
         <fieldset>
             <legend>Carta Para Flash</legend>
             <label for="nombre">Nombre: </label>
@@ -53,9 +49,11 @@
                 <option value="Mexico">Mexico</option>
             </select>
             <br>
+            <br>
 
-            <label for="comentarios">Mensaje: </label>
-                <input type="text" name="comentarios" id="comentarios"/>
+            <label for="area">Mensaje: </label>
+                <textarea name="area" id="mensaje" cols="50" row="50"></textarea>
+            <br>
             <br>
 
                 <div>Acepta terminos y condiciones</div>
@@ -63,9 +61,11 @@
                     <br>
                 </div>
 
-            <input type="submit"/>
+            <button type="submit" class="formulario__btn">Enviar</button>
             <input type="reset" value="Borrar Campos"/>
         </fieldset>
     </form>
+    <script src="../scripts/enviar.js"></script>
+    <script src="../scripts/Script.js"></script>
 </body>
 </html>
