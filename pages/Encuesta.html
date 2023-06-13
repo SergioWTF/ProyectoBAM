@@ -9,16 +9,17 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="../images/Logo Flash.png" alt="Logo de flash"/>
-        <button id="abrir" class="abrir-menu"><img id="logo" src="../images/lista.png" alt="Lista"/></button>
-        <nav class="nav" id="nav">
-            <button id="cerrar" class="cerrar-menu"><img id="logo" src="../images/x.png" alt="X"/></button>
-            <ul class="lista">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#comics">Comics</a></li>
-                <li><a href="#versiones">Versiones</a></li>
-                <li><a href="Personajes.html">Personajes</a></li>
-            </ul>
+        <div>
+            <img class="logo" src="../images/Logo Flash.png" alt="Logo de flash"/>
+            <button id="abrir" class="abrir-menu"><img id="imagen-lista" src="../images/lista.png" alt="Lista"/></button>
+            <nav class="nav" id="nav">
+                <button id="cerrar" class="cerrar-menu"><img id="imagen-lista" src="../images/x.png" alt="X"/></button>
+                <ul class="lista">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="Comics.html">Comics</a></li>
+                    <li><a href="Versiones.html">Versiones</a></li>
+                    <li><a href="Personajes.html">Personajes</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -52,7 +53,7 @@
             <br>
 
             <label for="area">Mensaje: </label>
-                <textarea name="area" id="mensaje" cols="50" row="50"></textarea>
+                <textarea name="area" name="mensaje" id="mensaje" cols="50" row="50"></textarea>
             <br>
             <br>
 
@@ -61,10 +62,22 @@
                     <br>
                 </div>
 
-            <button type="submit" class="formulario__btn">Enviar</button>
+            <input type="button" value="Enviar" onClick="Enviar()">
             <input type="reset" value="Borrar Campos"/>
         </fieldset>
     </form>
+    <h1>Aca esta el tema principal de la serie</h1>
+    <audio controls>
+        <source src="../images/The Flash CW Soundtrack - The Flash Theme.mp3" type="audio/mpeg">
+    </audio>
+    <a href="#inicio"><img src="../images/chevron-flecha-hacia-arriba.png" id="botonInicio"></a>
+    <footer>
+        <a title="GitHub" href="https://github.com/SergioWTF"><img src="../images/silueta-del-logo-de-github-en-un-cuadrado.png" alt="GitHub"/></a>
+        <a title="Facebook" href="https://www.facebook.com/SergioWTF1/?locale=es_LA"><img src="../images/facebook.png" alt="Facebook"/></a>
+        <a title="Instagram" href="https://www.instagram.com/sergiowtf2/"><img src="../images/instagram.png" alt="Instagram"/></a>
+        <a title="Twitter" href="https://twitter.com/SergioWTF04"><img src="../images/gorjeo.png" alt="Twitter"/></a>
+        <p id="copy">Derechos reservados &copy; 2023</p>
+    </footer>
     <script src="../scripts/enviar.js"></script>
     <script src="../scripts/Script.js"></script>
 </body>

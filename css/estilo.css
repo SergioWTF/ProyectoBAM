@@ -100,10 +100,11 @@ header{ /*Estilo de la cabecera*/
     }
 }
 
-.personajes ul li{  /*Estilo de la lista de personajes*/
+.personajes{  /*Estilo de la lista de personajes*/
     display: flex;
     font-size: x-large;
-    justify-content: center;
+    justify-content:center;
+    flex-direction: column;
 }
 
 .personajes img{ /*Estilo de las imagenes de personajes*/
@@ -111,12 +112,12 @@ header{ /*Estilo de la cabecera*/
     width: 200px;
 }
 
-p{ /*Medida y alineacion del texto*/
+section article p{ /*Medida y alineacion del texto*/
     font-size: x-large;
     justify-content: center;
 }
 
-h1{ /*Estilo de los titulos*/
+section article h1{ /*Estilo de los titulos*/
     text-align: center;
     margin:25px;
     font-weight: bold;
@@ -132,7 +133,7 @@ h1{ /*Estilo de los titulos*/
     width: 400px;
 }
 
-iframe{ /*Alineacion del video para que quede centrado*/
+section article div iframe{ /*Alineacion del video para que quede centrado*/
     text-align: center;
 }
 
@@ -219,4 +220,9 @@ footer img{ /*Estilo para las imagenes del footer*/
     right: -100px;
     width: 80px;
     transition: all 1s;
+}
+
+#construccion{
+    width: 100%;
+    
 }
