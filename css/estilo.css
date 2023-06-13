@@ -11,6 +11,7 @@ body{ /*Estilo del cuerpo de pagina*/
 }
 
 header{ /*Estilo de la cabecera*/
+    width: 100%;
     background-color: #7B241C;
     display: flex;
     align-items: center;
@@ -224,5 +225,4 @@ footer img{ /*Estilo para las imagenes del footer*/
 
 #construccion{
     width: 100%;
-    
 }
