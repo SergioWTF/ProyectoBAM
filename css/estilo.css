@@ -92,6 +92,12 @@ header{ /*Estilo de la cabecera*/
     .lista li a{
         color: #f9fd01;
     }
+
+    #imagen-lista{
+        max-width: 150px;
+        display: flex;
+        justify-content: end;
+    }
 }
 
 .personajes ul li{  /*Estilo de la lista de personajes*/
