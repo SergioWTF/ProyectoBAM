@@ -95,7 +95,7 @@ header{ /*Estilo de la cabecera*/
     }
 
     #imagen-lista{
-        max-width: 150px;
+        width: 150px;
         display: flex;
         justify-content: end;
     }
